@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     background-color:  #f7f5f5;
     color: #202020;
+    margin: 10px;
 }
 .custom {
     color: #202020;
@@ -123,4 +124,9 @@ img {
     height: 600px;
     margin-right: 50px;
     padding: 200x;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
 }
