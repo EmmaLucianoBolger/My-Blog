@@ -1,0 +1,126 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:  #f7f5f5;
+    color: #202020;
+}
+.custom {
+    color: #202020;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.subscribe,
+.create-site {
+    margin-left: 20px;
+    padding: 5px 15px;
+    border: 1px solid #333;
+    background: none;
+    cursor: pointer;
+}
+
+.subscribe:hover,
+.create-site:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.featured {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.featured-content {
+    max-width: 50%;
+}
+
+.featured h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: #e64e2b;
+}
+
+.articles {
+    padding: 20px 0;
+    background-color: #f8f8f8;
+}
+
+.article-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.article-card {
+    flex: 1;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.article-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.article-card .date {
+    font-size: 14px;
+    color: #999;
+}
+img {
+    width: 500px;
+    height: 600px;
+    margin-right: 50px;
+    padding: 200x;
+}
